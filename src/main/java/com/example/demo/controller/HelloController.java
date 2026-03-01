@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String helloMessage(){
-        return  "Hello from CI/CD";
+        return  "Hello from CI/CD from github actions";
     }
 
 }
